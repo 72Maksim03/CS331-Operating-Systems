@@ -7,7 +7,7 @@ A C program that simulates two non-preemptive CPU scheduling algorithms:
 ## Compilation
 
 ```bash
-gcc -Wall -Wextra -std=c11 scheduler.c -o scheduler
+gcc scheduler.c -o scheduler
 ```
 
 ## Execution
