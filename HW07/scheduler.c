@@ -119,6 +119,8 @@ void sjf(struct Process p[], int n){
 
 		completed[selected] = 1;
 		completedCount++;
+
+		printf("| P%d ", p[selected].pid);
 	}
 
 	printf("|\n\n");
